@@ -1,3 +1,5 @@
 mod renderer;
-mod renderable;
+pub mod renderable;
+pub mod formats;
+pub mod texture;
 pub use renderer::Renderer;
